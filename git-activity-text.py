@@ -36,7 +36,7 @@ def generate_github_activity(repo_path, activity_date, num_commits_per_day):
     # subprocess.run(["git", "push"], cwd=repo_path)
 
 # Example usage:
-repo_path = "/Users/brianquinn/workspace/brian-repo" # Replace with your repository path
+repo_path = "/Users/brianquinn/workspace/artificial-activity" # Replace with your repository path
 activity_date = "2023-01-01"
 num_commits_per_day = 2
 
